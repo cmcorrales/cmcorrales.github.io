@@ -1,0 +1,25 @@
+body {
+    margin: 80px auto;
+    width: 60%;
+}
+nav ul, footer ul {
+  font-size: 1.5em
+  font-family: 'Poiret One',sans-serif;
+  padding: 0px
+  list-style: none;
+  font-weight: bold;
+  color: #cc6699;
+}
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20 px
+}
+h1 {
+  font-size: 5em
+  font-family: 'Candal', sans-serif;
+  color: #00cc99;
+}
+footer {
+  border-top: 1px solid #ffffcc
+  font-size: 1em;
+}
