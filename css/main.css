@@ -1,25 +1,55 @@
 body {
-    margin: 80px auto;
-    width: 60%;
+    margin: 0px auto;
+    width: 100%;
 }
 nav ul, footer ul {
-  font-size: 1.5em
-  font-family: 'Poiret One',sans-serif;
-  padding: 0px
-  list-style: none;
+  font-family:'Ubuntu Condensed', sans-serif;
+	font-size: 14px;
+	font-style: normal;
   font-weight: bold;
-  color: #cc6699;
+  padding: 0px;
+  column-rule-color: #686960;
 }
 nav ul li, footer ul li {
-  display: inline;
-  margin-right: 20 px
+  display: flex;
+  margin-right: 0px
+  margin-left: 0px
+  margin: 0px
+  padding: 0px
 }
-h1 {
-  font-size: 5em
-  font-family: 'Candal', sans-serif;
+header h1 {
+  font-family: 'Poiret One', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
   color: #00cc99;
 }
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('retro-grunge-wallpaper-patterns-9.jpg');
+  background-size: cover;
+  color:#ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  margin: 0px 0px 0px 0px;
+  width: 100%
+}
+.nav {
+  background-color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  border-bottom: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 footer {
-  border-top: 1px solid #ffffcc
-  font-size: 1em;
+  font-size: 13px;
+  padding: 0px 0px 0px 0px;
+  margins: 0px 0px 0px 0px;
+  display: inline-flex
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
