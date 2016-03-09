@@ -1,3 +1,14 @@
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#nav').localScroll();
+})
+</script>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,37 +16,69 @@
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="/Users/cassandracorrales/cmcorrales.github.io/css/main.css">
 </head>
 <body>
-  <header class="container">
-    <div class="row">
-  <h1 class="col-sm-4">Cassandra Corrales</h1>
-  <nav class="col-sm-8-text-right">
-   <ul class="nav nav-pills">
-      <li><a href "/about_me/index.html">About Me</a></li>
-      <li><a href "/what_i've_done/index.html">What I've Done</a></li>
-      <li><a href "/What_i'm_doing/index.html">What I'm Doing</a></li>
-      <li><a href "/What_i_want_to_do/index.html">What I Want to Do</a></li>
-    </ul>
-  </nav>
+    <ul id="nav" class="nav nav-pills col-sm-8-text-right">
+    <li><a href="#about" title="Next Section"><img src=""/>About</a></li>
+    <li><a href="#future" title="Next Section"><img src=""/>Future</a></li>
+    <li><a href="#present" title="Next Section"><img src=""/>Present</a></li>
+    <li><a href="#past" title="Next Section"><img src=""/>Past</a></li>
+</ul>
+<div id="about">
+    <div class="story">
+      <div class ="container">
+        <div class ="row text-center">
+      <h1>Cassandra Corrales</h1>
+            <img src= "rounded_pic.png">
+            <h2>I'm a teacher by day and a learner by night. My interests include cognition, cooking, programming and biology. I also enjoy hiking, traveling and old re-runs of The Simpsons. </h2>
+    </div>
+    </div>
+    <div class="row text-center">
+      <button class="btn btn-default"><a href="https://github.com/cmcorrales">Github</a></button>
+      <button class="btn btn-default"><a href="https://www.linkedin.com/pub/cassandra-corrales/115/4a3/6">LinkedIn</a></button>
+      <button class="btn btn-default"><a href="https://twitter.com/casita305">Twitter</a></button>
+      <button class="btn btn-default"><a href="http://www.freecodecamp.com/cmcorrales">freeCodeCamp</a></button>
+    </div>
+    </div>
+  </div>
 </div>
-</header>
-  <section class="jumbotron">
-    <div class ="container">
-      <div class ="row text-center">
-        <h2>About Me</h2>
-        <p> I'm a teacher by day and a learner by night. My interests include cognition, cooking, programming and biology. I also enjoy hiking, traveling and old re-runs of The Simpsons. </p>
+<div id="future">
+    <div class="story">
+        <h1>Future</h1>
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="#" class="thumbnail">
+              <img src="programming-583923_960_720.jpg"></a>
+              <div class="caption">
+                <h3>What I'm Learning Next</h3>
+              </div>
+            </div>
+          </div>
+        </div>
 </div>
-</section>
-<div class="footer">
-  <footer>
-    <ul>
-      <li><a href "mailto: cmcorrales3@gmail.com">Email Me</a></li>
-      <li><a href "https://www.linkedin.com/in/cassandra-corrales-0064a3115">LinkedIn</a></li>
-    </ul>
-  </footer>
+<div id="present">
+    <div class="story">
+        <h1>Present</h1>
+    </div>
 </div>
+<div id="past">
+    <div class="story">
+        <h1>Past</h1>
+    </div>
+</div>
+
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+</script>
 </body>
 </html>

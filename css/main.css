@@ -10,6 +10,12 @@ nav ul, footer ul {
   padding: 0px;
   column-rule-color: #686960;
 }
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+}
 nav ul li, footer ul li {
   display: flex;
   margin-right: 0px
@@ -17,25 +23,12 @@ nav ul li, footer ul li {
   margin: 0px
   padding: 0px
 }
-header h1 {
-  font-family: 'Poiret One', sans-serif;
+h1 {
+  font-family:'Signika Negative', sans-serif;
   font-style: normal;
   font-weight: bold;
   margin: 0px 0px 0px 0px;
-  color: #00cc99;
-}
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('retro-grunge-wallpaper-patterns-9.jpg');
-  background-size: cover;
-  color:#ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.jumbotron h2 {
-  margin: 0px 0px 0px 0px;
-  width: 100%
+  color: white;
 }
 .nav {
   background-color: #ffffff;
@@ -46,10 +39,43 @@ header h1 {
   justify-content: flex-end;
 }
 footer {
-  font-size: 13px;
-  padding: 0px 0px 0px 0px;
-  margins: 0px 0px 0px 0px;
-  display: inline-flex
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  font-size: 12px;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+footer .col-sm-8 {
+  display: inline-block
+}
+
+footer ul {
+  list-style: none;
+}
+#about {
+    background:url(2013-09-30-sunnysky.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 730px;
+    margin: 0;
+    padding: 160px 0 0 0;
+  }
+#future {
+    background:url(treetop.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 730px;
+    margin: 0;
+    padding: 160px 0 0 0;
+  }
+#present{
+      background:url(tree_trunk_imperfections_brown_9209_1600x1200.jpg) 50% 0 no-repeat fixed;
+      color: white;
+      height: 730px;
+      margin: 0;
+      padding: 160px 0 0 0;
+  }
+#past{
+      background:url(tree-roots-700x354.jpg) 50% 0 no-repeat fixed;
+      color: white;
+      height: 730px;
+      margin: 0;
+      padding: 160px 0 0 0;
 }
