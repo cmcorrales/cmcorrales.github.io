@@ -140,14 +140,14 @@ h1 {
     padding: 160px 0 0 0;
   }
 #portfolio {
-    background:url(lightbulb-26608_960_720.png) 50% 0 no-repeat fixed;
+    background:url(images/lightbulb.png) 50% 0 no-repeat fixed;
     background-color: rgb(155, 240, 233);;
     height: 730px;
     margin: 0;
     padding: 160px 0 0 0;
   }
 #learning{
-      background:url(2000px-Path-graph.svg.png) 50% 35% repeat fixed;
+      background:url(images/path.png) 50% 35% repeat fixed;
       background-color: rgb(237, 229, 226);
       height: 730px;
       margin: 0px;
@@ -160,4 +160,3 @@ h1 {
   margin: 30px 0px 0px 0px;
   color: rgb(237, 20, 111);
 }
-
