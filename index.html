@@ -1,61 +1,42 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
-<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.inview.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('#nav').localScroll();
-})
-</script>
 <!DOCTYPE html>
 <html>
 <head>
-<title> cassandra corrales </title>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/css/main.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://use.fontawesome.com/92dc4e37ae.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title> Cassandra Corrales </title>
 </head>
 <body>
-    <ul id="nav" class="nav nav-pills col-sm-8-text-right">
-    <li><a href="#about" title="Next Section"><img src=""/>Hello!</a></li>
-    <li><a href="#portfolio" title="Next Section"><img src=""/>Portfolio</a></li>
-    <li><a href="#learning" title="Next Section"><img src=""/>Learning</a></li>
-</ul>
-<div id="about">
-    <div class="story">
+  <input type="checkbox" id="sidebartoggler" name="" value="" />
+  <div class="page-wrap">
+  <label for="sidebartoggler" class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></label>
+  <div class="page-content">
+    <h1 id="heading">Cassandra Corrales</h1>
+    <div id="about">
       <div class ="container">
-        <div class ="row text-center">
-      <h1>CASSANDRA</h1>
-  <div class="row">
-    <div class="col-lg-3">
-      <div class="hovereffect">
-      <img class="img-responsive" src="images/magnifyingglass.jpg" class= "img-thumbnail" width="200" height="200">
+        <div class="col-lg-3">
+        <div class="hovereffect">
+        <img class="img-responsive" src="images/magnifyingglass.jpg" class= "img-thumbnail" width="200" height="200">
         <div class="overlay">
           <h2>code adventurer</h2>
-          <p>
-            <button class="btn btn-default"><a href="http://www.freecodecamp.com/cmcorrales">freeCodeCamp</a></button>
-				</p>
-      </div>
-    </div>
-  </div>
+        </div>
+        </div>
+        </div>
     <div class="col-lg-3">
       <div class="hovereffect">
       <img class="img-responsive" src="images/finches.jpeg" class="img-thumbnail" width="200" height="200">
         <div class="overlay">
-          <h2>science teacher</h2>
-          <p>
-          <button class="btn btn-default"><a href="https://www.linkedin.com/pub/cassandra-corrales/115/4a3/6">LinkedIn</a></button>
-				</p>
+          <h2>biologist</h2>
     </div>
     </div>
   </div>
   <div class="col-lg-3">
       <div class="hovereffect">
-      <img class="img-responsive" src="images/brain.jpg" class="img-thumbnail" width="200" height="200">
+      <img class="img-responsive" src="images/lightbulb.jpg" class="img-thumbnail" width="200" height="200">
       <div class="overlay">
         <h2>cognition curious</h2>
       </div>
@@ -70,12 +51,44 @@ $(document).ready(function(){
     </div>
   </div>
 </div>
-      <h1>CORRALES</h1>
-    </div>
-    </div>
+<div class ="container">
+  <div class="col-lg-3">
+    <div class="hovereffect">
+    <img class="img-responsive" src="images/apple.png" class= "img-thumbnail" width="200" height="200">
+      <div class="overlay">
+        <h2>teacher</h2>
     </div>
   </div>
 </div>
+<div class="col-lg-3">
+  <div class="hovereffect">
+  <img class="img-responsive" src="images/cubanamerican.png" class= "img-thumbnail" width="200" height="200">
+    <div class="overlay">
+      <h2>cuban-american</h2>
+  </div>
+</div>
+</div>
+<div class="col-lg-3">
+  <div class="hovereffect">
+  <img class="img-responsive" src="images/books.png" class= "img-thumbnail" width="200" height="200">
+    <div class="overlay">
+      <h2>bookworm</h2>
+  </div>
+</div>
+</div>
+<div class="col-lg-3">
+  <div class="hovereffect">
+  <img class="img-responsive" src="images/sun.png" class= "img-thumbnail" width="200" height="200">
+    <div class="overlay">
+      <h2>optimist</h2>
+  </div>
+</div>
+</div>
+</div>
+    <div class="pagedown">
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+  </div>
 <div id="portfolio">
     <div class="story">
         <h1>portfolio</h1><break></break>
@@ -99,16 +112,17 @@ $(document).ready(function(){
         <p><a href="https://www.amazon.com/Smarter-Way-Learn-JavaScript-technology-ebook/dp/B00H1W9I6C"target="_blank">A Smarter Way to Learn Javascript</a></p>
     </div>
 </div>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
-    return false;
-});
-</script>
+</div>
+</div>
+<div class="sidebar">
+  <ul>
+    <li><a class="options" href="#about" title="Next Section">about</a></li>
+    <li><a class="options" href="#portfolio" title="Next Section">projects</li>
+    <li><a class="options" href="#contact" title="Next Section">contact</li>
+    <li><a class="options" href="#blog" title="Next Section">blog</li>
+  </ul>
+</div>
+</div>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
